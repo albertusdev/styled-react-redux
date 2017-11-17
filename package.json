@@ -1,0 +1,48 @@
+{
+  "name": "react-redux-styled-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint-config-airbnb": "^15.1.0",
+    
+    "history": "^4.7.2",
+    "morgan": "^1.9.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.3.5",
+    "redux-thunk": "^2.2.0",
+    "rotating-file-stream": "^1.3.4",
+    "serve-favicon": "^2.4.5",
+    "styled-components": "^2.2.3",
+    "superagent": "^3.8.1",
+    "superagent-defaults": "^0.1.14",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-import-resolver-alias": "^1.0.3",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.4.0",
+    "poi": "^9.5.2"
+  },
+  "scripts": {
+    "start": "poi src/index.jsx",
+    "build": "poi build",
+    "serve": "node server.js"
+  }
+}
